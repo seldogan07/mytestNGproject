@@ -43,23 +43,23 @@ public class Day17_Annotations {
     public void afterMethod(){
         System.out.println("after method");
     }
-    @Test
+    @Test(priority = 4)
     public void test1(){
         System.out.println("Test 1");
     }
-    @Test
+    @Test @Ignore
     public void test2(){
         System.out.println("Test 2");
     }
-    @Test
+    @Test(enabled = false)
     public void test3(){
         System.out.println("Test 3");
     }
-    @Test
+    @Test(priority = 1)
     public void test4(){
         System.out.println("Test 4");
     }
-    @Test
+    @Test(priority = -2)
     public void test5(){
         System.out.println("Test 5");
     }
