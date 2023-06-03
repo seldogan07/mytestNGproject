@@ -1,4 +1,4 @@
-package com.myapp.tests;
+package com.myapp.tests.topics;
 
 import org.testng.annotations.*;
 
