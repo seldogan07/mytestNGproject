@@ -180,5 +180,7 @@ xyzBankManagerPage.customersButton.click();
 
 //        Assert that number of customers is 5
         assertEquals(5, numberOfRows);
+
+        Driver.closeDriver();
     }
 }
